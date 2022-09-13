@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",                                
+    "rootDir": "./src",
+    "allowJs": true,                                  
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "@routes/*": ["./src/routes/*"],
+      "@constrollers/*": ["./src/controllers/*"],
+      "@config/*": ["./src/confing/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/@types"],   
+    "esModuleInterop": true,                         
+    "forceConsistentCasingInFileNames": true,                     
+    "skipLibCheck": true ,
+    "strictNullChecks": true                               
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
