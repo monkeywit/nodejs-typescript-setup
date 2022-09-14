@@ -1,1 +1,1 @@
-This is a tutorial project for youtube
+This is a tutorial project for youtube with deploy on digitalocean
